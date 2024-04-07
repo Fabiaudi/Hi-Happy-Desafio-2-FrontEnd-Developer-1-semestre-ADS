@@ -1,0 +1,22 @@
+
+.modal-dialog {
+    max-width: 780px;
+}
+
+body {
+    background-color: #f1ededbd;
+}
+
+.btn-outline-primary{
+    background-color: var(--primary-color);
+    --bs-btn-color: #ffffff;
+    --bs-btn-border-color: var(--primary-color);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--secundary-color);
+}
+
+#btn-adicionar, 
+#btn-salvar {
+    background-color: var(--primary-color);
+    --bs-btn-border-color: var(--primary-color);
+}
